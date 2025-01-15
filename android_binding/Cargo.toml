@@ -1,0 +1,16 @@
+[package]
+name = "androind_binding"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+name = "mobile"
+
+[dependencies]
+main = { workspace = true }
+uniffi = { version = "0.28.3", features = [ "cli" ] }
+uniffi_macros = "0.28.3"  # Procedural macros support
+# jsonwebtoken = "9.3.0"
+# openssl = { version = "0.10.35", features = ["vendored"] }
+

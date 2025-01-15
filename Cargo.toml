@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["main", "android_binding"]
+
+[workspace.dependencies]
+main = { path = "main" }
